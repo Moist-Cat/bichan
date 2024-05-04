@@ -1,0 +1,12 @@
+# vim
+*.swp
+*.swo
+*.pyc
+*~
+
+# dev
+db.sqlite3
+
+# docker
+.env
+data/
