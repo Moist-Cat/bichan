@@ -22,7 +22,7 @@ class RecordViewSet(ModelViewSet):
             "name": "CEO",
         }
 
-       return Response(res)
+        return Response(res)
 
     @action(methods=['get'], detail=False)
     def econ(self, request, format = None):
