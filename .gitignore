@@ -15,3 +15,8 @@ data/
 *.xlsx
 *.csv
 *.json
+
+# docs
+docs/report.aux
+docs/report.log
+docs/report.pdf
