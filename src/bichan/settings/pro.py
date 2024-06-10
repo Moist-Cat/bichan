@@ -4,7 +4,7 @@ DEBUG = False
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.mysql",
+        "ENGINE": "django.db.backends.postgresql",
         "NAME": os.environ["DATABASE_NAME"],
         "USER": os.environ["DATABASE_USER"],
         "PASSWORD": os.environ["DATABASE_PASSWORD"],
